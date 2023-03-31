@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c1f410cad05a34cb1e0952b0bd7c57, type: 3}
   m_Name: French
   m_EditorClassIdentifier: 
-  dialogueID: 0000000001000000
+  dialogueID: 000000000100000002000000
   dialogueText:
   - Information introuvable
   - Ceci est un test
+  - Information sur le mecha

@@ -5,14 +5,21 @@ public class PartBuilder : MonoBehaviour
 {
     [SerializeField]
     private GameObject textObject;
+    public DialogueID dialogueID;
     
-    public void Initialize(string text)
+    public void Initialize(DialogueID dialogueID)
     {
-        textObject.GetComponent<TextMeshProUGUI>().text = text;
+        this.dialogueID = dialogueID;
+        RefreshText();
     }
 
-    public void RefreshText(string text)
+    public void RefreshText()
     {
-        textObject.GetComponent<TextMeshProUGUI>().text = text;
+        textObject.GetComponent<TextMeshProUGUI>().text = InstanciatorManager.instance.languageManager.GetText(dialogueID);
+    }
+
+    public void Setup()
+    {
+        InstanciatorManager.instance.Register(this);
     }
 }

@@ -27,3 +27,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: Slayer
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5014304021287537633
+      m_GuidHigh: 16602510659736452514
+    m_SerializedTextureGuid:
+      m_GuidLow: 10562133443120755431
+      m_GuidHigh: 3459501721292226986
+    m_Size: {x: 0.25, y: 0.17685255}
+    m_SpecifySize: 1
+    m_Name: Mecha
+    m_Texture: {fileID: 0}

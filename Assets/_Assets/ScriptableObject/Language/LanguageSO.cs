@@ -5,6 +5,7 @@ using UnityEngine;
 public enum DialogueID{
     NONE,
     TEST,
+    MECHA,
 }
 
 [CreateAssetMenu(fileName = "LanguageSO", menuName = "ScriptableObjects/Language")]
@@ -31,6 +32,8 @@ public class LanguageSO : ScriptableObject
         {
             case "Slayer":
                 return DialogueID.TEST;
+            case "Mecha":
+                return DialogueID.MECHA;
         }
 
         return DialogueID.NONE;
