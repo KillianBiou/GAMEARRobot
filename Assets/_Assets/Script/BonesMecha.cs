@@ -6,9 +6,19 @@ public class BonesMecha : MonoBehaviour
 {
     public MechaManager manager;
 
-    private void OnTriggerEnter(Collider other)
+    public List<GameObject> interestPoints;
+
+    public void TriggerFocus()
     {
-        Debug.Log("pfeokakofeopkopkzef");
         manager.FocusOnPart(this);
+    }
+
+    public void TriggerReset()
+    {
+        foreach(GameObject interestPoint in interestPoints)
+        {
+            interestPoint.transform.GetChild(0).gameObject.SetActive(false);
+            interestPoint.GetComponent<FovEvent>().Reset();
+        }
     }
 }

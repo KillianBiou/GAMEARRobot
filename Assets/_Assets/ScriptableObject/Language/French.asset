@@ -12,8 +12,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c1f410cad05a34cb1e0952b0bd7c57, type: 3}
   m_Name: French
   m_EditorClassIdentifier: 
-  dialogueID: 000000000100000002000000
+  dialogueID: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000
   dialogueText:
   - Information introuvable
-  - Ceci est un test
-  - Information sur le mecha
+  - GUARDIAN 05-LVC
+  - "Ce robot mesure pr\xE8s de 40m et p\xE8se plus de 3000 tonnes, il \xE0 \xE9t\xE9
+    con\xE7u pour repousser les menaces extra-terrestres mais est aussi capable de
+    d\xE9truire ou de d\xE9tourner des ast\xE9ro\xEFdes. Il est le plus grand et
+    le plus lourd de toutes les solutions mises en place pour prot\xE9ger la Terre
+    mais il est aussi le plus efficace."
+  - "Ailes lat\xE9rales"
+  - "Elles fonctionnent en harmonie avec les r\xE9acteurs en basse altitude pour
+    permettre de fendre l\u2019air lors du d\xE9collage. Elles sont aussi pratiques
+    pour recentrer l\u2019\xE9quilibre du robot lorsqu\u2019il est \xE0 terre."
+  - Mains
+  - "Ses gigantesques mains sont aussi pr\xE9cises que puissantes, avec une force
+    de pression d\xE9passant les 5000 tonnes et une pr\xE9cision approchant le millim\xE8tre
+    elles sont capables de travaux de pr\xE9cision et de destruction."
+  - 'Propulseurs '
+  - "Ils permettent un d\xE9collage plus rapide et plus pr\xE9cis mais aussi de se
+    d\xE9placer plus rapidement dans les airs. Ces propulseurs alli\xE9s avec les
+    r\xE9acteurs principaux permettent au robot une grande libert\xE9 de mouvement."
+  - "R\xE9acteurs QBranch"
+  - "Aliment\xE9s par \xE9nergie nucl\xE9aire, ils permettent le d\xE9placement du
+    robot de 3150 tonnes dans les airs. Ils sont dot\xE9s d\u2019une grande puissance
+    et sont capables d\u2019une autonomie d\xE9mesur\xE9e lors de longues missions."
+  - "G\xE9n\xE9rateurs de Bouclier"
+  - "Positionn\xE9es sur les avants bras, les g\xE9n\xE9rateurs permettent de g\xE9n\xE9rer
+    une puissante barri\xE8re \xE9lectromagn\xE9tique tout autour du robot. Cette
+    barri\xE8re prot\xE8ge pour une certaine dur\xE9e de toutes les menaces ext\xE9rieures."
+  - "Canon \xE0 particules QBranch"
+  - "L'arme la plus l\xE9tale du Guardian, le canon permet de d\xE9truire des vaisseaux
+    ennemis \xE0 grande distance. Cependant, son utilisation est limit\xE9e."
+  - Quex Rafale 600 mm
+  - "L'arme historique des Guardians, au fil des ann\xE9es, cette mitrailleuse automatique
+    a sauv\xE9 nombre de pilotes dans les situations les plus critiques. La derni\xE8re
+    version des Quex Rafale est la plus puissante et la plus fiable."
+  - "Missiles guid\xE9s B51"
+  - "Tous les Guardians sont \xE9quip\xE9s de 6 missiles B51. Leur puissance explosive
+    est telle qu'il sont capables de d\xE9truire les champs de forces ennemis."
+  - Poste de pilotage ZV88
+  - "Le poste de pilotage est l'endroit le plus s\xFBr du Guardian, en effet seulement
+    45 pilotes ont trouv\xE9 la mort cette ann\xE9e."

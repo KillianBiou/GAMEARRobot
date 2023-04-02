@@ -13,7 +13,7 @@ public class InstanciatorManager : MonoBehaviour
 
     public static InstanciatorManager instance;
     private ARTrackedImageManager imageManager;
-    private Dictionary<DialogueID, GameObject> instanciatedTrackedImage = new Dictionary<DialogueID, GameObject>();
+    private Dictionary<DialogueID, List<GameObject>> instanciatedTrackedImage = new Dictionary<DialogueID, List<GameObject>>();
 
     void OnEnable() => imageManager.trackedImagesChanged += OnChanged;
 
@@ -28,7 +28,12 @@ public class InstanciatorManager : MonoBehaviour
 
     public void Register(PartBuilder partBuilder)
     {
-        instanciatedTrackedImage.Add(partBuilder.dialogueID, partBuilder.gameObject);
+        if (!instanciatedTrackedImage.ContainsKey(partBuilder.dialogueID))
+        {
+            instanciatedTrackedImage.Add(partBuilder.dialogueID, new List<GameObject>());
+        }
+        instanciatedTrackedImage[partBuilder.dialogueID].Add(partBuilder.gameObject);
+
         partBuilder.RefreshText();
     }
 
@@ -43,13 +48,13 @@ public class InstanciatorManager : MonoBehaviour
             {
                 GameObject temp = Instantiate(prefabMecha, newImage.transform);
                 if(temp.GetComponent<PartBuilder>())
-                    temp.GetComponent<PartBuilder>().Initialize(LanguageSO.String2DialogueID(newImage.referenceImage.name));
+                    temp.GetComponent<PartBuilder>().Initialize(LanguageSO.String2DialogueID("Title" + newImage.referenceImage.name), LanguageSO.String2DialogueID(newImage.referenceImage.name));
             }
             else
             {
                 GameObject temp = Instantiate(prefab, newImage.transform);
                 if (temp.GetComponent<PartBuilder>())
-                    temp.GetComponent<PartBuilder>().Initialize(LanguageSO.String2DialogueID(newImage.referenceImage.name));
+                    temp.GetComponent<PartBuilder>().Initialize(LanguageSO.String2DialogueID("Title" + newImage.referenceImage.name), LanguageSO.String2DialogueID(newImage.referenceImage.name));
             }
         }
 
@@ -66,7 +71,10 @@ public class InstanciatorManager : MonoBehaviour
     {
         foreach(DialogueID key in instanciatedTrackedImage.Keys)
         {
-            instanciatedTrackedImage[key].GetComponent<PartBuilder>().RefreshText();
+            foreach(GameObject gameObject in instanciatedTrackedImage[key])
+            {
+                gameObject.GetComponent<PartBuilder>().RefreshText();
+            }
         }
     }
 }

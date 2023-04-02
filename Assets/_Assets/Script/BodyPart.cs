@@ -17,4 +17,22 @@ public class BodyPart : MonoBehaviour
             t.GetComponent<Renderer>().material.SetColor("_Fresnel_Color", fresnelColor);
         }
     }
+
+    public void Appear()
+    {
+        GetComponent<Renderer>().enabled = true;
+        foreach (Transform t in transform)
+        {
+            t.GetComponent<Renderer>().enabled = true;
+        }
+    }
+
+    public void Disapear()
+    {
+        GetComponent<Renderer>().enabled = false;
+        foreach (Transform t in transform)
+        {
+            t.GetComponent<Renderer>().enabled = false;
+        }
+    }
 }

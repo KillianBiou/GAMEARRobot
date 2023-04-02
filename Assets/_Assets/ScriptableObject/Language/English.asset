@@ -12,8 +12,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98c1f410cad05a34cb1e0952b0bd7c57, type: 3}
   m_Name: English
   m_EditorClassIdentifier: 
-  dialogueID: 000000000100000002000000
+  dialogueID: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000
   dialogueText:
   - Missing information
-  - English Test
-  - Information On Mecha
+  - 'GUARDIAN 05-LVC '
+  - This robot is almost 40m long and weighs more than 3000 tons. It was designed
+    to repel extraterrestrial threats but is also able to destroy or divert asteroids.
+    It is the largest and heaviest of all the solutions put in place to protect the
+    Earth but it is also the most effective.
+  - Side wings
+  - They work in harmony with the engines at low altitude to allow the air to be
+    split during take-off. They are also handy for re-centering the robot's balance
+    when it is on the ground.
+  - Hands
+  - His gigantic hands are as precise as they are powerful, with a pressing force
+    exceeding 5,000 tons and a precision approaching the millimeter they are capable
+    of precision and destructive work.
+  - Thrusters
+  - They allow a faster and more precise takeoff but also to move faster in the air.
+    These thrusters allied with the main reactors allow the robot great freedom of
+    movement.
+  - Reactors
+  - Powered by nuclear energy, they allow the movement of the 3150 tons robot in
+    the air. They have great power and are capable of a disproportionate autonomy
+    during long missions.
+  - Shield generators
+  - Positioned on the front arms, the generators allow to generate a powerful electromagnetic
+    barrier all around the robot. This barrier protects the robot from all external
+    threats for a certain period of time.
+  - Qbranch particle cannon
+  - 'The Guardian''s most lethal weapon, the cannon can destroy enemy ships at great
+    distances.  However, its use is limited. '
+  - Quex Rafale 600 mm
+  - The historical weapon of the Guardians. Over the years, this automatic machine
+    gun has saved many pilots in the most critical situations. The latest version
+    of the Quex Rafale is the most powerful and reliable.
+  - B51 guided missiles
+  - All Guardians are equipped with 6 B51 missiles. Their explosive power is such
+    that they are able to destroy enemy energy fields.
+  - Cockpit ZV88
+  - 'The cockpit is the safest place in the Guardian, in fact only 45 pilots have
+    died this year. '
