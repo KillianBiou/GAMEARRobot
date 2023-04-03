@@ -114,10 +114,10 @@ public class MechaManager : MonoBehaviour
         switch (State)
         {
             case ViewState.GLOBAL:
-                gameObject.transform.Find("Armature").Rotate(-Vector3.forward * direction * rotationFactor);
+                gameObject.transform.GetChild(0).Find("Armature").Rotate(-Vector3.forward * direction * rotationFactor);
                 break;
             case ViewState.FOCUS:
-                gameObject.transform.Find("Armature").Rotate(-Vector3.forward * direction * rotationFactor);
+                gameObject.transform.GetChild(0).Find("Armature").Rotate(-Vector3.forward * direction * rotationFactor);
                 break;
         }
     }
