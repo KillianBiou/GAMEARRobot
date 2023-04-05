@@ -11003,7 +11003,7 @@ PrefabInstance:
     - target: {fileID: 6593854669713735660, guid: 9a5856274be53c84cbd0fc8e2fab805b,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6593854669713735661, guid: 9a5856274be53c84cbd0fc8e2fab805b,
         type: 3}
@@ -11014,6 +11014,16 @@ PrefabInstance:
         type: 3}
       propertyPath: dialogueID
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7095525421549305395, guid: 9a5856274be53c84cbd0fc8e2fab805b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7840218364764821991, guid: 9a5856274be53c84cbd0fc8e2fab805b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8084694522938594530, guid: 9a5856274be53c84cbd0fc8e2fab805b,
         type: 3}
