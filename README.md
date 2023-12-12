@@ -5,18 +5,18 @@
  
 This project is made by 
 
-Killian Biou - Dev
-Mathieu Dilasser - 3D Artist
-Jean Albert - Writer and UI designer
+Killian Biou - Dev<br>
+Mathieu Dilasser - 3D Artist<br>
+Jean Albert - Writer and UI designer<br>
 
 # Context
 
-This student project is a 1 week long team project.
-This application was originally developped to go along the Project : Guardian for the Laval Virtual 2023.
+This student project is a 1 week long team project.<br>
+This application was originally developped to go along the Project : Guardian for the Laval Virtual 2023.<br>
 
 # Features 
-The game is an interactive lore application for Project : Guardian.
-You can click on body part to focus on it.
-You can then drag right or left to turn the mecha and access information on the robot's parts.
-The text show only when in the camera frostrum.
+The game is an interactive lore application for Project : Guardian.<br>
+You can click on body part to focus on it.<br>
+You can then drag right or left to turn the mecha and access information on the robot's parts.<br>
+The text show only when in the camera frostrum.<br>
 In the top left, you can change language by clicking on the flags.
